@@ -4,6 +4,10 @@ class CouponsController < ApplicationController
     @coupons = Coupons.all
   end
 
+  def show
+    
+  end
+
   def new
   end
 
